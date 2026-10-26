@@ -1,0 +1,29 @@
+{
+  "name": "webbasicaa",
+  "version": "1.0.0",
+  "description": "* Java\r * C++\r * C#\r ```sql\r CREATE TABLE Persona\r (\r   Id INT PRIMARY KEY,\r   Nombres VARCHAR(25)\r )",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MizterNox/webbasica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MizterNox/webbasica/issues"
+  },
+  "homepage": "https://github.com/MizterNox/webbasica#readme",
+  "dependencies": {
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.14"
+  }
+}
